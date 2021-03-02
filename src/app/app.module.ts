@@ -22,7 +22,10 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { DanielComponent } from './daniel/daniel.component';
+
+import { AntonioComponent } from './antonio/antonio.component';
+import { JonathanComponent } from './jonathan/jonathan.component';
+
 
 @NgModule({
   imports: [
@@ -40,7 +43,10 @@ import { DanielComponent } from './daniel/daniel.component';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    DanielComponent,
+
+    AntonioComponent,
+    JonathanComponent,
+
 
   ],
   providers: [],
